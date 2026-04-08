@@ -1,0 +1,61 @@
+TEST_CASES = [
+    # ============ EASY_FACTUAL ============
+    {"id": "q001", "prompt": "What year did World War 2 end?", "expected": "1945", "category": "easy_factual"},
+    {"id": "q002", "prompt": "Who wrote Romeo and Juliet?", "expected": "William Shakespeare", "category": "easy_factual"},
+    {"id": "q003", "prompt": "How many planets are in the solar system?", "expected": "8", "category": "easy_factual"},
+    {"id": "q004", "prompt": "What year did the Titanic sink?", "expected": "1912", "category": "easy_factual"},
+    {"id": "q005", "prompt": "What is the chemical symbol for water?", "expected": "H2O", "category": "easy_factual"},
+    {"id": "q006", "prompt": "How many sides does a hexagon have?", "expected": "6", "category": "easy_factual"},
+    {"id": "q007", "prompt": "What is the largest ocean on Earth?", "expected": "Pacific", "category": "easy_factual"},
+    {"id": "q008", "prompt": "Who painted the Mona Lisa?", "expected": "Leonardo da Vinci", "category": "easy_factual"},
+    {"id": "q009", "prompt": "What year did the first moon landing happen?", "expected": "1969", "category": "easy_factual"},
+    {"id": "q010", "prompt": "What is the speed of light in kilometers per second?", "expected": "299792", "category": "easy_factual"},
+
+    # ============ TRICKY_FACTUAL ============
+    {"id": "q011", "prompt": "What is the capital of Australia?", "expected": "Canberra", "category": "tricky_factual"},
+    {"id": "q012", "prompt": "How many hearts does an octopus have?", "expected": "3", "category": "tricky_factual"},
+    {"id": "q013", "prompt": "What country is the Sahara desert primarily located in?", "expected": "Algeria", "category": "tricky_factual"},
+    {"id": "q014", "prompt": "What is the longest river in the world?", "expected": "Nile", "category": "tricky_factual"},
+    {"id": "q015", "prompt": "How many bones are in the adult human body?", "expected": "206", "category": "tricky_factual"},
+    {"id": "q016", "prompt": "What is the smallest country in the world?", "expected": "Vatican City", "category": "tricky_factual"},
+    {"id": "q017", "prompt": "What is the most spoken language in the world by native speakers?", "expected": "Mandarin Chinese", "category": "tricky_factual"},
+    {"id": "q018", "prompt": "How many chromosomes do humans have?", "expected": "46", "category": "tricky_factual"},
+    {"id": "q019", "prompt": "What is the capital of Canada?", "expected": "Ottawa", "category": "tricky_factual"},
+    {"id": "q020", "prompt": "What planet is closest to the sun?", "expected": "Mercury", "category": "tricky_factual"},
+
+    # ============ OBSCURE_FACTS ============
+    {"id": "q021", "prompt": "What country has the most natural lakes in the world?", "expected": "Canada", "category": "obscure_facts"},
+    {"id": "q022", "prompt": "What is the hardest natural substance on Earth?", "expected": "Diamond", "category": "obscure_facts"},
+    {"id": "q023", "prompt": "What year was the Eiffel Tower built?", "expected": "1889", "category": "obscure_facts"},
+    {"id": "q024", "prompt": "How many moons does Mars have?", "expected": "2", "category": "obscure_facts"},
+    {"id": "q025", "prompt": "What is the tallest mountain in Africa?", "expected": "Kilimanjaro", "category": "obscure_facts"},
+    {"id": "q026", "prompt": "What element has the atomic number 79?", "expected": "Gold", "category": "obscure_facts"},
+    {"id": "q027", "prompt": "How many teeth does an adult human have?", "expected": "32", "category": "obscure_facts"},
+    {"id": "q028", "prompt": "What is the national animal of Scotland?", "expected": "Unicorn", "category": "obscure_facts"},
+    {"id": "q029", "prompt": "What year was the Great Wall of China completed?", "expected": "1644", "category": "obscure_facts"},
+    {"id": "q030", "prompt": "What is the smallest bone in the human body?", "expected": "Stapes", "category": "obscure_facts"},
+
+    # ============ MATH_AND_LOGIC ============
+    {"id": "q031", "prompt": "What is 17 multiplied by 13?", "expected": "221", "category": "math_and_logic"},
+    {"id": "q032", "prompt": "What is the square root of 144?", "expected": "12", "category": "math_and_logic"},
+    {"id": "q033", "prompt": "What is 15% of 200?", "expected": "30", "category": "math_and_logic"},
+    {"id": "q034", "prompt": "How many seconds are in a day?", "expected": "86400", "category": "math_and_logic"},
+    {"id": "q035", "prompt": "What is 2 to the power of 10?", "expected": "1024", "category": "math_and_logic"},
+    {"id": "q036", "prompt": "If a triangle has angles of 90 and 45 degrees what is the third angle?", "expected": "45", "category": "math_and_logic"},
+    {"id": "q037", "prompt": "What is 144 divided by 12?", "expected": "12", "category": "math_and_logic"},
+    {"id": "q038", "prompt": "How many minutes are in a week?", "expected": "10080", "category": "math_and_logic"},
+    {"id": "q039", "prompt": "What is the next prime number after 7?", "expected": "11", "category": "math_and_logic"},
+    {"id": "q040", "prompt": "What is 33% of 300?", "expected": "99", "category": "math_and_logic"},
+
+    # ============ TRICK_QUESTIONS ============
+    {"id": "q041", "prompt": "What subject did Einstein fail in school?", "expected": "none, Einstein did not fail any subjects", "category": "trick_questions"},
+    {"id": "q042", "prompt": "How many stars are on the Australian flag?", "expected": "6", "category": "trick_questions"},
+    {"id": "q043", "prompt": "What color is a polar bear's fur?", "expected": "transparent or colorless not white", "category": "trick_questions"},
+    {"id": "q044", "prompt": "How long did the Hundred Years War last?", "expected": "116 years", "category": "trick_questions"},
+    {"id": "q045", "prompt": "What country invented French fries?", "expected": "Belgium", "category": "trick_questions"},
+    {"id": "q046", "prompt": "How many eyes does a bee have?", "expected": "5", "category": "trick_questions"},
+    {"id": "q047", "prompt": "What is the loudest animal on Earth?", "expected": "Sperm whale", "category": "trick_questions"},
+    {"id": "q048", "prompt": "In what year did China invent paper?", "expected": "105 AD", "category": "trick_questions"},
+    {"id": "q049", "prompt": "What is the most common element in the Earth's crust?", "expected": "Oxygen", "category": "trick_questions"},
+    {"id": "q050", "prompt": "How many legs does a spider have?", "expected": "8", "category": "trick_questions"},
+]
